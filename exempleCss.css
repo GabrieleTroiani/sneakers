@@ -1,0 +1,65 @@
+table {
+    background-color: white;
+    width: 300px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 2px;
+    
+   
+    
+  }
+
+  .img{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   margin-left: 470px;
+    
+    
+  }
+  .img1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  a:link{
+    color:black;  
+    font-family:Comic Sans MS;  
+    font-size:12pt; 
+}
+a:visited{
+    color:black;  
+    font-family:Comic Sans MS;  
+    font-size:12pt; 
+}
+a:active{
+    color:black;  
+    font-family:Comic Sans MS;  
+    font-size:12pt; 
+}
+a:hover.donna{
+    color:magenta;  
+    font-family:Comic Sans MS;  
+    font-size:12pt; 
+}
+a:hover.uomo{
+  color:blue;  
+  font-family:Comic Sans MS;  
+  font-size:12pt;
+}
+a:hover {
+  opacity: 0.6;
+}
+.box1 {
+  grid-area: box1;
+  height: 100px;
+  display: grid;
+  font-style: oblique;
+  font-size: large;
+  text-align: center;
+  align-content: center;
+  background-color: lightgray;
+}
+
