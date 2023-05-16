@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $("#btn").click(function() {
-        alert("Acquisto avvenuto con successo");
+        alert("Acquisto avvenuto con successo"); 
     });
 });
 
