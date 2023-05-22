@@ -5,16 +5,22 @@ table {
     padding: 50px;
     margin: 20px;
     margin-left: 2px;
-    
-   
-    
+  }
+
+  table.mystery {
+    background-color: white;
+    width: 400px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 2px;
   }
 
   .img{
     display: flex;
     flex-direction: row;
     text-align: center;
-   margin-left: 470px;
+   margin-left: 270px;
     
     
   }
@@ -49,6 +55,11 @@ a:hover.uomo{
   font-family:Comic Sans MS;  
   font-size:12pt;
 }
+a:hover.all{
+  color:brown;  
+  font-family:Comic Sans MS;  
+  font-size:12pt;
+}
 a:hover {
   opacity: 0.6;
 }
@@ -63,3 +74,12 @@ a:hover {
   background-color: lightgray;
 }
 
+select[multiple] {
+  background:none;
+  width:150px;
+  height:auto;
+  border-width: 2px;
+  border-style: inset;
+  appearance: menulist;
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+}
